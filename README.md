@@ -104,6 +104,12 @@
   ```
   sudo usermod -aG docker [user_name]
   ```
+  
+- Install Docker Compose
+
+  ```
+  sudo pip3 install docker-compose
+  ```
 
 ## Install / Setup Git
 
