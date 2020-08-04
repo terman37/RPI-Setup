@@ -2,11 +2,11 @@
 
 ## Prepare SD CARD
 
-- install Lite version on sd using imager_1.4.exe from [here](https://www.raspberrypi.org/downloads/) 
+- install Lite version on sd using **imager** from [here](https://www.raspberrypi.org/downloads/) 
 
 - enable ssh
   
-- add ssh file (no extension) on boot partition (small one)
+  - add ssh file (no extension) on boot partition (small one)
   
 - setup wifi.
 
@@ -62,6 +62,8 @@
 
   - enable ssh for good : go to Interfacing Options / ssh --> enable
   - Use all sd card space: go to Advanced Options / Expand Filesystem
+
+- reboot
 
 - check partition sizes
 
