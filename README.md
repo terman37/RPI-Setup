@@ -83,7 +83,7 @@
   
 - ssh connection using keys
 
-  - generate keys from local computer
+  - generate keys from local computer (default choices)
 
     ```bash
     ssh-keygen
@@ -91,7 +91,7 @@
 
   - key is generated in ~/.ssh/ named id_rsa (private key) and id_rsa_pub (public key to be copied to RPi)
 
-  - Copy id to RPI
+  - Copy id to RPIcd 
 
     ```bash
     ssh-copy-id pi@<pi_address>
